@@ -16,6 +16,13 @@ body{
 	margin: auto;
 	overflow: hidden;
 }
+.dark{
+	padding: 15px;
+	background: #35424a;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 ul{
 	margin: 0;
 	padding: 0;
@@ -91,8 +98,8 @@ header a:hover{
 	background:url('showcase.jpg') no-repeat 0 -1250px ;
 	background-size: cover;
 	text-align: center;
-	color: #ffffff;
-	filter: blur(8px);
+	color: #ffffff;	
+	filter: blur(6px);
 }
 
 #showcase h1{
@@ -145,6 +152,33 @@ header a:hover{
     height: 90px;
  }
 
+/* Services */
+ul#services li{
+	list-style: none;
+	padding: 20px;
+	border: #cccccc solid 1px;
+	margin-bottom: 5px;
+	background: #e6e6e6;
+}
+
+/* Sidebar */
+aside#sidebar{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar textarea{
+	width: 90%;
+	padding: 5px;
+}
+/* Main-col */
+article#main-col{
+	float: left;
+	width: 65%;
+	color: black;
+ }
+
  footer{
  	padding: 20px;
  	margin-top: 20px;
@@ -152,4 +186,4 @@ header a:hover{
  	background-color: #e8491d;
  	text-align: center;
  }
-
+ 
