@@ -95,11 +95,11 @@ header a:hover{
 /*Showcase*/
 #showcase{
 	min-height: 510px;
-	background:url('showcase.jpg') no-repeat 0 -1250px ;
+	background:url('showcase.jpg') no-repeat 0 -34px ;
 	background-size: cover;
 	text-align: center;
 	color: #ffffff;	
-	filter: blur(6px);
+	padding-top: 119px;
 }
 
 #showcase h1{
